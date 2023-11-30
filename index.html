@@ -36,24 +36,26 @@
         </div>
       </div>
     </nav>
-    <div class="relative h-screen mb-16">
+    <div class="relative lg:h-screen h-2/3 mb-16">
       <div
         class="bg-cover bg-center h-screen lg:block hidden"
         style="background-image: url('./img/billsbg.png')"
       ></div>
-      <div class="absolute w-2/4 lg:ml-14 top-48 flex-wrap">
-        <h2 class="font-bold text-4xl uppercase">The best place to</h2>
-        <h2 class="font-bold text-4xl text-sky-400 uppercase">
+      <div class="absolute w-3/4 lg:ml-14 ml-14 top-48 flex-wrap">
+        <h2 class="font-bold lg:text-4xl text-2xl uppercase">
+          The best place to
+        </h2>
+        <h2 class="font-bold lg:text-4xl text-2xl text-sky-400 uppercase">
           manage your bills
         </h2>
       </div>
-      <div class="absolute w-80 ml-14 top-72">
+      <div class="absolute lg:w-80 w-72 ml-14 top-72">
         <p class="text-lg">
           Functional and practical. Start tracking your bills in the most
           efficient way.
         </p>
       </div>
-      <div class="absolute w-80 ml-14 mt-9 top-80">
+      <div class="absolute w-80 ml-14 mt-9 top-96 lg:top-80">
         <button
           class="bg-sky-400 hover:bg-blue-600 text-white text-xl font-normal py-1 px-5 rounded-md"
         >
@@ -158,18 +160,19 @@
       <span class="font-bold text-3xl">Getting started is </span>
       <span class="font-bold text-3xl text-sky-400">easy</span>
     </div>
-    <div class="max-w-sm w-full justify-center mt-12 lg:max-w-full lg:flex">
+    <div class="flex justify-center max-w-full mt-12 rounded-md">
       <div
-        class="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
-        style="background-image: url('./img/LoginBills.png')"
-      ></div>
-      <div
-        class="border-r border-b border-l border-slate-300 lg:border-l-0 lg:border-t bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal"
+        class="flex flex-wrap lg:justify-end px-6 py-4 border-slate-100 border-2"
       >
+        <img
+          src="./img/LoginBills.png"
+          alt=""
+          class="h-64 w-72 rounded-md mb-2 mr-8"
+        />
         <div class="mb-8 lg:w-96">
           <p class="text-sky-400 text-lg font-semibold mb-2">01</p>
           <div class="font-bold text-2xl mb-2">Login or register</div>
-          <p class="text-lg break-all">
+          <p class="lg:text-lg text-base break-word">
             Follow the whole step and you're just ready to get started.
           </p>
         </div>
